@@ -1,0 +1,71 @@
+.main {
+  display: flex;
+  height: 99vh;
+}
+
+.hero, .about {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__title {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19px;
+  margin-top: 8px;
+}
+
+.about__itens {
+  color: #fff;
+  font-family: "Exo 2", serif;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 70%;
+}
+
+.about__buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.about__buttons button {
+  border: 0.1px solid #fff;
+  border-radius: 10px;
+  background-color: #0CA88E;
+  box-shadow: 4px 4px 4px #fff;
+  width: 240px;
+  padding: 14px;
+  margin: 16px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.hero {
+  background-image: url('../../../assets/images/bg-intro.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.showMobile {
+  display: none;
+}
+
+@media(max-width: 640px) {
+  .showMobile {
+    display: block;
+  }
+
+  .hideMobile {
+    display: none;
+  }
+}
