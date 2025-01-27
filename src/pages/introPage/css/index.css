@@ -69,3 +69,7 @@
     display: none;
   }
 }
+
+.modal-backdrop {
+  z-index: -1 !important;
+}
