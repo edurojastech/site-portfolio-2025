@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .about__title {
@@ -20,7 +21,6 @@
 
 .about__itens {
   color: #fff;
-  font-family: "Exo 2", serif;
   letter-spacing: 1px;
   text-align: center;
   width: 70%;
@@ -30,42 +30,72 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin-top: 20px;
+  gap: 30px;
 }
 
 .about__buttons button {
-  border: 0.1px solid #fff;
+  border: none;
   border-radius: 10px;
   background-color: #0CA88E;
-  box-shadow: 4px 4px 4px #fff;
-  width: 240px;
-  padding: 14px;
+  width: 160px;
+  padding: 10px;
   margin: 16px 0;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.4s;
 }
 
+.about__buttons button:hover {
+  box-shadow: 4px 4px 4px #fff;
+  border: 0.1px solid #fff;
+}
 
 .hero {
   background-image: url('../../../assets/images/bg-intro.png');
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center; */
+}
+
+.hero__titles {
+  width: 450px; 
+  text-align: center;
+}
+
+.introbg {
+  background-image: url('../../../assets/images/bg-intro-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .showMobile {
   display: none;
 }
 
-@media(max-width: 640px) {
+.avatar {
+  border-radius: 50%;
+  max-width: 100%;
+  width: 260px;
+}
+
+@media(max-width: 800px) {
   .showMobile {
     display: block;
   }
 
   .hideMobile {
+    display: none;
+  }
+
+  .avatar {
+    max-width: 240px;
+    margin-bottom: 30px;
+  }
+
+  .hero__titles {
     display: none;
   }
 }

@@ -1,0 +1,30 @@
+.about___itens {
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+.about___itens img {
+ width: 40px;
+}
+
+.about___itens p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: calc(100% / 3);
+  gap: 8px;
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 11px  !important;
+  }
+
+  .about___itens img {
+    width: 32px;
+   }
+   
+}

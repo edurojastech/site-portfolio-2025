@@ -8,3 +8,35 @@
 body {
   background-color: #101A2E;
 }
+
+h1, h2, p, button{
+  font-family: "Exo 2", serif !important;
+}
+
+.text-blue-dark {
+  color: #101A2E;
+}
+
+.bg-blue-dark {
+  background-color: #101A2E;
+}
+
+.btn-custom-dark {
+  background-color: #101A2E;
+  color: #fff;
+  border: none;
+}
+
+.btn-custom-dark:hover {
+  background-color: #0CA88E;
+  color: #101A2E;
+}
+
+
+.modal-content {
+  border: none;
+  box-shadow: 8px 8px 8px;
+}
+
+
+
