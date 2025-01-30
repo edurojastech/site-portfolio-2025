@@ -1,0 +1,16 @@
+footer {
+  position: absolute;
+  z-index: 1;
+  background-color: #0CA88E;
+  color: #101A2E;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+footer img {
+  width: 24px;
+}

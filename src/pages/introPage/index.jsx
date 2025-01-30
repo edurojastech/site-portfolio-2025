@@ -5,6 +5,7 @@ import logoER from "../../assets/logoEdu.svg";
 import avatar from "../../assets/images/avatar.svg"
 import cv from "../../assets/curriculo/cv_eduardo_rojas_pt.pdf";
 import AboutDescription from "../../components/AboutDescription";
+import Aviso from "../../components/Aviso";
 
 export default function IntroPage() {
   function downloadFile(url) {
@@ -92,6 +93,8 @@ export default function IntroPage() {
           </div>
         </div>
       </div>
+
+      <Aviso />
     </main>
   );
 }
