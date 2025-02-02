@@ -81,6 +81,10 @@
   width: 260px;
 }
 
+.logoER {
+  width: 300px;
+}
+
 @media(max-width: 800px) {
   .showMobile {
     display: block;
@@ -91,13 +95,18 @@
   }
 
   .avatar {
-    max-width: 240px;
+    width: 50%;
     margin-bottom: 30px;
   }
 
   .hero__titles {
     display: none;
   }
+
+  .logoER {
+    width: 70%;
+  }
+  
 }
 
 .modal-backdrop {

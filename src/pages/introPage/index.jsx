@@ -49,7 +49,7 @@ export default function IntroPage() {
         </div>
         <div className="about__itens showMobile">
           <img
-            width={300}
+            className="logoER"
             src={logoER}
             alt="Eduardo Rojas | Programador FrontEnd"
           />
