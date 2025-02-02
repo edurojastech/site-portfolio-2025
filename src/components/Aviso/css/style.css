@@ -9,6 +9,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  font-size: 14px;
 }
 
 footer img {
