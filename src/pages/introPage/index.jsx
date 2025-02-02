@@ -6,6 +6,7 @@ import avatar from "../../assets/images/avatar.svg"
 import cv from "../../assets/curriculo/cv_eduardo_rojas_pt.pdf";
 import AboutDescription from "../../components/AboutDescription";
 import Aviso from "../../components/Aviso";
+import ButtonsIntro from "../../components/Buttons/ButtonsIntroPage";
 
 export default function IntroPage() {
   function downloadFile(url) {
@@ -26,15 +27,7 @@ export default function IntroPage() {
             alt="Eduardo Rojas | Programador FrontEnd"
           />
           <h1 className="about__title">Programador Front-End</h1>
-          <div className="about__buttons mt-4" style={{ height: 80}}>
-            <button 
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Sobre o Eduardo
-            </button>
-            <button onClick={() => downloadFile(cv)}>Ver Currículo</button>
-          </div>
+          <ButtonsIntro onDownloadCv={() =>downloadFile(cv)}/>
         </div>
       </div>
 
@@ -54,6 +47,7 @@ export default function IntroPage() {
             alt="Eduardo Rojas | Programador FrontEnd"
           />
           <h1 className="about__title">Programador Front-End</h1>
+          <ButtonsIntro onDownloadCv={() =>downloadFile(cv)}/>
         </div>
       </div>
 
