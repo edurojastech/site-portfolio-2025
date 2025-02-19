@@ -26,33 +26,6 @@
   width: 70%;
 }
 
-.about__buttons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 30px;
-}
-
-.about__buttons button {
-  border: none;
-  border-radius: 10px;
-  background-color: #0CA88E;
-  width: 160px;
-  padding: 10px;
-  margin: 6px 0;
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-.about__buttons button:hover {
-  box-shadow: 4px 4px 4px #fff;
-  border: 0.1px solid #fff;
-}
-
 .hero {
   background-image: url('../../../assets/images/bg-intro.png');
   background-repeat: no-repeat;

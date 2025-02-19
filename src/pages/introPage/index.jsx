@@ -51,6 +51,7 @@ export default function IntroPage() {
         </div>
       </div>
 
+      {/* MODAL */}
       <div
         className="modal fade"
         id="exampleModal"

@@ -1,0 +1,36 @@
+.about__buttons{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  width: 50%;
+  margin: auto;
+  gap: 10px;
+}
+
+.about__buttons button {
+  border: none;
+  border-radius: 10px;
+  background-color: #0CA88E;
+  width: 160px;
+  height: 42px;
+  padding: 10px;
+  margin: 6px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.about__buttons button:hover {
+  box-shadow: 4px 4px 4px #fff;
+  border: 0.1px solid #fff;
+}
+
+@media(max-width: 1100px) {
+  .about__buttons{
+    grid-template-columns: repeat(2, 1fr);  
+    width: 100%;
+  }
+  
+}
