@@ -7,6 +7,7 @@ import cv from "../../assets/curriculo/cv_eduardo_rojas_pt.pdf";
 import AboutDescription from "../../components/AboutDescription";
 import Aviso from "../../components/Aviso";
 import ButtonsIntro from "../../components/Buttons/ButtonsIntroPage";
+import ModalProfile from "../../components/Modals/ModalProfile";
 
 export default function IntroPage() {
   function downloadFile(url) {
@@ -51,44 +52,7 @@ export default function IntroPage() {
         </div>
       </div>
 
-      {/* MODAL */}
-      <div
-        className="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-        style={{ backgroundColor: "#0ca88e73"}}
-      >
-        <div className="modal-dialog modal-dialog-centered modal-lg">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h1 className="fs-5 text-blue-dark" id="exampleModalLabel">
-                Quem é Eduardo Rojas?
-              </h1>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="modal-body">
-              <AboutDescription />
-            </div>
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-custom-dark"
-                data-bs-dismiss="modal"
-              >
-                Fechar
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <ModalProfile />
       <Aviso />
     </main>
   );

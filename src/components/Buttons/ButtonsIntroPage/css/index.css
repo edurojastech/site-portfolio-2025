@@ -16,7 +16,7 @@
   padding: 10px;
   margin: 6px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   cursor: pointer;
   transition: 0.4s;
@@ -32,5 +32,9 @@
     grid-template-columns: repeat(2, 1fr);  
     width: 100%;
   }
-  
+
+  .about__buttons button {
+    max-width: 100%;
+    width: 140px;
+  };  
 }
