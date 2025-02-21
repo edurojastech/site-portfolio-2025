@@ -7,36 +7,34 @@ export default function AboutDescription() {
   return (
     <main className="about__description px-3">
       <div className="about___itens text-blue-dark my-3" style={{ fontWeight: 600 }}>
-        <p>
-          {" "}
-          <img src={pcIcon} alt="computador" loading="lazy"  /> Desde
-          2019 Programando no Front-end
+        <p className="img-text">
+          
+          <img src={pcIcon} alt="computador" loading="lazy"  /> 
+          Desde 2019 Programando no Front-end          
         </p>
-        <p>
-          {" "}
+        <p className="img-text">          
           <img
             src={fogueteIcon}
             alt="computador"
             loading="lazy"
             
-          />{" "}
+          />
           Criador de conteúdo sobre programação
         </p>
-        <p>
-          {" "}
+        <p className="img-text">
           <img
             src={ideiaIcon}
             alt="computador"
             loading="lazy"
             
-          />{" "}
+          />
           Transformando Ideias em Experiências Digitais
         </p>
       </div>
     
       <p
-        style={{ textAlign: "justify", fontSize: 15 }}
-        className="text-blue-dark"
+        style={{ textAlign: "justify" }}
+        className="text-blue-dark textos"
       >
         Apaixonado por tecnologia e desenvolvimento web, tenho mais de 5 anos de
         sólida trajetória no front-end, onde transformo ideias em interfaces
@@ -47,8 +45,8 @@ export default function AboutDescription() {
       </p>
 
       <p
-        style={{ textAlign: "justify", fontSize: 15 }}
-        className="text-blue-dark"
+        style={{ textAlign: "justify" }}
+        className="text-blue-dark textos"
       >
         Além de atuar em diversas empresas e projetos, também tenho experiência
         como freelancer, o que me proporcionou flexibilidade para adaptar-me a
@@ -58,8 +56,8 @@ export default function AboutDescription() {
       </p>
 
       <p
-        style={{ textAlign: "justify", fontSize: 15 }}
-        className="text-blue-dark"
+        style={{ textAlign: "justify" }}
+        className="text-blue-dark textos"
       >
         Trabalho com metodologias ágeis como Scrum e Kanban para otimizar a
         organização e a produtividade, sempre focado em entregar valor real.

@@ -4,7 +4,7 @@ import "./css/index.css";
 import logoER from "../../assets/logoEdu.svg";
 import avatar from "../../assets/images/avatar.svg"
 import cv from "../../assets/curriculo/cv_eduardo_rojas_pt.pdf";
-import AboutDescription from "../../components/AboutDescription";
+import digitandoGif from "../../assets/images/digitando.gif";
 import Aviso from "../../components/Aviso";
 import ButtonsIntro from "../../components/Buttons/ButtonsIntroPage";
 import ModalProfile from "../../components/Modals/ModalProfile";
@@ -22,8 +22,9 @@ export default function IntroPage() {
     <main className="main">
       <div className="about hideMobile introbg">
         <div className="about__itens">
+          <img src={digitandoGif} alt="codificando" className="gif-digitando" />
           <img
-            width={360}
+            width={300}
             src={logoER}
             alt="Eduardo Rojas | Programador FrontEnd"
           />

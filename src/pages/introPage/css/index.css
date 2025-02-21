@@ -20,10 +20,14 @@
 }
 
 .about__itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   letter-spacing: 1px;
   text-align: center;
-  width: 70%;
+  width: 480px;
 }
 
 .hero {
@@ -57,6 +61,11 @@
   width: 300px;
 }
 
+.gif-digitando {
+  width: 280px;
+  margin: auto;
+}
+
 @media(max-width: 800px) {
   body {
     overflow: hidden;
@@ -86,5 +95,9 @@
   .about__buttons{
     flex-direction: column;
     gap: 5px;    
+  }
+
+  .about__itens {
+    width: 90%;
   }
 }

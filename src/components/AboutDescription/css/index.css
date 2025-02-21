@@ -1,7 +1,7 @@
 .about___itens {
   display: flex;
   justify-content: space-around;
-  gap: 12px;
+  gap: 10px;
 }
 
 .about___itens img {
@@ -18,13 +18,26 @@
   gap: 8px;
 }
 
+.about___itens p, .textos {
+  font-size: 15px;
+}
+
 @media (max-width: 600px) {
-  p {
-    font-size: 11px  !important;
+  .about___itens p, .textos {
+    font-size: 11px !important;
   }
 
   .about___itens img {
-    width: 32px;
+    width: 30px !important;
    }
-   
+}
+
+@media (max-width: 1400px) {
+  .about___itens p, .textos {
+    font-size: 12px;
+  }
+
+  .about___itens img {
+    width: 40px;
+   }
 }
