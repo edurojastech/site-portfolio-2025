@@ -44,12 +44,12 @@
 @media(max-width: 1400px) {
   .about__buttons{
     grid-template-columns: repeat(2, 1fr);  
-    width: 100%;
+    width: 80%;
   }
 
   .about__buttons button {
     max-width: 100%;
-    width: 200px;
+    width: 160px;
     padding: 5px;
     margin: 6px 0;
   }
