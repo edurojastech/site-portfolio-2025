@@ -5,7 +5,8 @@
   align-items: center;
   width: 75%;
   margin: auto;
-  gap: 10px;
+  gap: 1px;
+  /* border: 2px solid red; */
 }
 
 .about__buttons button {
@@ -28,7 +29,7 @@
   border: 0.1px solid #fff;
 }
 
-@media(max-width: 800px) {
+/* @media(max-width: 800px) {
   .about__buttons{
     grid-template-columns: repeat(2, 1fr);  
     width: 100% !important;
@@ -38,17 +39,17 @@
     max-width: 100% !important;
     width: 140px !important;
   };  
-}
+} */
 
 @media(max-width: 1400px) {
   .about__buttons{
     grid-template-columns: repeat(2, 1fr);  
-    width: 80%;
+    width: 100%;
   }
 
   .about__buttons button {
     max-width: 100%;
-    width: 180px;
+    width: 200px;
     padding: 5px;
     margin: 6px 0;
   }
