@@ -29,28 +29,16 @@
   border: 0.1px solid #fff;
 }
 
-/* @media(max-width: 800px) {
+@media(max-width: 640px) {
   .about__buttons{
     grid-template-columns: repeat(2, 1fr);  
-    width: 100% !important;
-  }
-
-  .about__buttons button {
-    max-width: 100% !important;
-    width: 140px !important;
-  };  
-} */
-
-@media(max-width: 1400px) {
-  .about__buttons{
-    grid-template-columns: repeat(2, 1fr);  
-    width: 80%;
+    width: 100%;
+    padding: 8px 32px;
   }
 
   .about__buttons button {
     max-width: 100%;
-    width: 160px;
-    padding: 5px;
-    margin: 6px 0;
+    width: 140px;
+    margin: 6px 10px;
   }
 }
