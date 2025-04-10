@@ -1,5 +1,6 @@
 footer {
-  position: absolute;
+  position: fixed;
+  bottom: 0;
   z-index: 1;
   background-color: #0CA88E;
   color: #101A2E;
@@ -8,10 +9,25 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   font-size: 14px;
+  height: 40px;
 }
 
 footer img {
+  width: 24px;
+}
+
+footer .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-left: 2px solid #fff;
+  height: 100%;
+  width: calc(100% / 2); 
+  padding: 4px; 
+}
+
+footer .link img {
   width: 24px;
 }

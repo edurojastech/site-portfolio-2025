@@ -1,0 +1,7 @@
+.modal-backdrop {
+  z-index: -1 !important;
+}
+
+.modal {
+  background-color: #0ca88e73;
+}

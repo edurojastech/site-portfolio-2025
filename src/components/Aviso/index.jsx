@@ -1,11 +1,20 @@
-import avisoIcon from "../../assets/images/aviso.png"
+// import avisoIcon from "../../assets/images/aviso.png"
 import "./css/style.css"
-export default function Aviso() {
+import homeIcon from "../../assets/icons/home_white.png"
+import { Link } from "react-router-dom"
+
+export default function NavBarFooter() {
   return(
-    <footer className="py-1">
-      <img src={avisoIcon} alt="" />
-      <span>Site em desenvolvimento com React.js</span>
-      <img src={avisoIcon} alt="" />
+    <footer>
+      <Link to="/" className="text-white txt-none-decoration link">
+        <img src={homeIcon} alt="Home" />
+        <span>Home</span>
+      </Link>
+
+      <Link to="/projetos" className="text-white txt-none-decoration link">
+        <img src={homeIcon} alt="Home" />
+        <span>Projetos</span>
+      </Link>
     </footer>
   )
 }

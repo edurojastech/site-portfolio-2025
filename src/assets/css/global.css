@@ -21,6 +21,10 @@ h1, h2, p, button, footer{
   background-color: #101A2E;
 }
 
+.bg-green-water {
+  background-color: #0CA88E;
+}
+
 .btn-custom-dark {
   background-color: #101A2E;
   color: #fff;
@@ -38,5 +42,6 @@ h1, h2, p, button, footer{
   box-shadow: 8px 8px 8px;
 }
 
-
-
+.txt-none-decoration {
+  text-decoration: none;
+}
