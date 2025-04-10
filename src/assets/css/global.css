@@ -7,6 +7,10 @@
 
 body {
   background-color: #101A2E;
+  background-image: url("../../assets/images/bg-intro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 h1, h2, p, button, footer{
@@ -45,3 +49,7 @@ h1, h2, p, button, footer{
 .txt-none-decoration {
   text-decoration: none;
 }
+/* 
+.card {
+  box-shadow: 5px 5px 5px #0CA88E !important;
+} */
