@@ -68,7 +68,7 @@
 
 @media(max-width: 800px) {
   body {
-    overflow: hidden;
+    overflow: auto;
   }
 
   .showMobile {
