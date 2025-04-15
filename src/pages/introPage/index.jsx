@@ -34,7 +34,6 @@ export default function IntroPage() {
               src={logoER}
               alt="Eduardo Rojas | Programador FrontEnd"
             />
-            <h1 className="about__title">Programador Front-End</h1>
             <ButtonsIntro onDownloadCv={() => downloadFile(cv)} />
           </div>
         </div>
