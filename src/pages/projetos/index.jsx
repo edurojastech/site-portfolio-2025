@@ -7,7 +7,7 @@ export default function Projetos() {
   return (
     <RootLayout>
       <div className="pb-5">
-        <header className="bg-green-water text-center py-5 mb-4">
+        <header className="bg-green-water text-center py-2 mb-4">
           <div className="container">
             <h1 className="text-white">Projetos</h1>
           </div>
